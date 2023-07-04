@@ -91,7 +91,8 @@ Untuk informasi lebih lanjut tentang penggunaan OpenCV Python dan deteksi kontur
 
 - Tutorial OpenCV di pyimagesearch.com: https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
   
-Hail deteksi (Output) :
+  
+## Hasil deteksi (Output) :
 ![Output](https://github.com/Fachrezary/PA_PC_202131116_FachrezaRiyanda_F/assets/92991205/612713a6-3b38-40ad-a188-ddd00a0a0890)
 
 
