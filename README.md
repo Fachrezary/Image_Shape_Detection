@@ -30,39 +30,39 @@ Sebelum menjalankan proyek ini, pastikan Anda memiliki hal-hal berikut terpasang
 ## Tahapan Penyelesaian Project
 Berikut adalah langkah-langkah dalam mendeteksi bentuk gambar menggunakan kontur dengan menggunakan OpenCV dan Python di Jupyter Notebook:
 
-1. Persiapan Software:
+#### 1. Persiapan Software:
 
 - Memastikan Python dan OpenCV sudah terinstal di lingkungan Jupyter Notebook.
 
 - Mengimpor library yang diperlukan, seperti cv2, numpy, dan matplotlib.
 
-2. Baca dan tampilkan gambar:
+#### 2. Baca dan tampilkan gambar:
 
 - Membaca gambar menggunakan OpenCV.
 
 - Menampilkan gambar menggunakan Matplotlib untuk memeriksa apakah gambar telah terbaca dengan benar.
 
-3. Konversi gambar menjadi skala abu-abu:
+#### 3. Konversi gambar menjadi skala abu-abu:
 
 - Mengubah gambar ke dalam skala abu-abu (grayscale)
     
 - menggunakan fungsi cvtColor() dari OpenCV.
 
-4. Binarisasi gambar:
+#### 4. Binarisasi gambar:
 
 - Mengubah gambar menjadi citra biner dengan menggunakan metode thresholding. Misalnya, menggunakan thresholding adaptif untuk menghasilkan citra biner dengan ambang batas yang ditentukan secara otomatis.
 
-5. Temukan kontur pada gambar biner:
+#### 5. Temukan kontur pada gambar biner:
 
 - Menggunakan fungsi findContours() dari OpenCV untuk menemukan kontur pada gambar biner.
 
 - Kontur adalah garis yang menghubungkan titik-titik pada batas objek yang memiliki intensitas piksel yang sama atau serupa.
 
-6. Loop melalui setiap kontur dan lakukan operasi:
+#### 6. Loop melalui setiap kontur dan lakukan operasi:
 
 - Melakukan operasi pada setiap kontur yang ditemukan. Misalnya, menggambar kotak pembatas (bounding box) di sekitar setiap kontur atau menghitung luas kontur.
 
-7. Tampilkan gambar hasil:
+#### 7. Tampilkan gambar hasil:
 
 - Menampilkan gambar hasil dengan kontur yang terdeteksi, menggunakan fungsi imshow() dari Matplotlib.
 
